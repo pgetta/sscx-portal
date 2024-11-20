@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSCx Portal - Neuroscience Research Platform</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #2ecc71;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SSCx Portal</h1>
+        <p>Advanced Neuroscience Research Platform</p>
+        <a href="#get-started" class="cta-button">Get Started</a>
+    </header>
+
+    <div class="container">
+        <section class="features">
+            <div class="feature-card">
+                <h2>Data Analysis</h2>
+                <p>Powerful tools for analyzing neural activity patterns and brain connectivity data.</p>
+            </div>
+            <div class="feature-card">
+                <h2>Visualization</h2>
+                <p>Interactive 3D brain mapping and neural network visualization capabilities.</p>
+            </div>
+            <div class="feature-card">
+                <h2>Collaboration</h2>
+                <p>Share findings and collaborate with researchers worldwide in real-time.</p>
+            </div>
+        </section>
+
+        <section id="get-started">
+            <h2>Join the Research Community</h2>
+            <p>Access cutting-edge tools and connect with leading neuroscientists around the globe.</p>
+            <form>
+                <input type="email" placeholder="Enter your email" style="padding: 0.5rem; margin-right: 1rem;">
+                <button type="submit" class="cta-button">Request Access</button>
+            </form>
+        </section>
+    </div>
+
+    <footer style="background: #2c3e50; color: white; text-align: center; padding: 1rem;">
+        <p>© 2024 SSCx Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
